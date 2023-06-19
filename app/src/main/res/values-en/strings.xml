@@ -3,4 +3,6 @@
     <string name="FIO">Korobova Anastasiya</string>
     <string name="speciality">Mathematics and Information Technologies (Mobile Devices Software)</string>
     <string name="group">05</string>
+    <string name="portrait">Portrait view</string>
+    <string name="landscape">Landscape view</string>
 </resources>

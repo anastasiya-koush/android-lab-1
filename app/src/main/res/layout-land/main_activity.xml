@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewFio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/FIO"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:textColor="#ff0000ff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewSpecialty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/speciality"
+        android:textAlignment="center"
+        android:textColor="#ff0000ff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group"
+        android:textAlignment="center"
+        android:textColor="#ff0000ff"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textViewOrientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:textAlignment="center"
+        android:text="@string/landscape"
+        android:textSize="20sp" />
+
+</LinearLayout>
